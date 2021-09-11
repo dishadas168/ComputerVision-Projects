@@ -5,8 +5,8 @@ create an image mosaic is implemented. We will focus on the case where we have t
 # Examples
 Displaying the input image, warped and merged images:
 
-![Img1](/Img1.JPG)
-![Img2](/Img2.JPG)
+![Img1](Img1.JPG)
+![Img2](Img2.JPG)
 
 # File Summary
 
