@@ -11,21 +11,21 @@ The executable files to reduce height and width are SeamCarvingReduceHeight.m an
 For an input image, its energy image is calculated. This energy image gives knowledge of edges or regions of change. Using this energy image, a cumulative minimum energy map is generated which shows the cumulative amount of change experienced in the horizontal or vertical direction. Using this image, an optimal vertical or horizontal seam is computed, which can be removed to produce the image with one seam removed. This process, when repeated over a loop, removes a bunch of seams to give a resized image.
 
 ## Examples
-The example input image is given below:
+The example input image is given below:  
 ![Input Image Prague](inputSeamCarvingPrague.jpg)
 
-Energy image produced:
+Energy image produced:  
 ![Energy Image Prague](inputEnergyImage.JPG)
 
-Cumulative Minimum Energy Map in Horizontal and Vertical directions:
+Cumulative Minimum Energy Map in Horizontal and Vertical directions:  
 ![CME Hor Image Prague](inputCMEMapHor.JPG)
 ![CME Ver Image Prague](inputCMEMap.JPG)
 
-Output image showing optimal seams in vertical and horizontal directions
+Output image showing optimal seams in vertical and horizontal directions  
 ![Output Image Prague](output1.JPG)
 
-Width reduction by 100 seams
+Width reduction by 100 seams  
 ![Output Image Prague](outputReduceWidthPrague.png)
 
-Height reduction by 100 seams
+Height reduction by 100 seams  
 ![Output Image Prague](outputReduceHeightPrague.png)
